@@ -5,3 +5,5 @@ dist/*
 static/*
 
 Makefile
+
+certs

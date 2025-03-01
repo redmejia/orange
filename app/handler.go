@@ -24,6 +24,16 @@ func (a *App) ProfileHandler(w http.ResponseWriter, r *http.Request) {
 			Hobbies: []string{"Swimming", "Travelling"},
 			Image:   "http://localhost:8080/art/img/0x3.jpeg",
 		},
+		{
+			Name:    "Jane Doe",
+			Hobbies: []string{"Swimming", "Travelling"},
+			Image:   "http://localhost:8080/art/img/0x4.jpg",
+		},
+		{
+			Name:    "Mary Doe",
+			Hobbies: []string{"Programming", "C++", "Go", "Kotlin", "Java", "Python", "Swimming", "Travelling", "Reading", "Cooking", "Dancing", "Singing", "Playing"},
+			Image:   "http://localhost:8080/art/img/0x5.jpg",
+		},
 	}
 
 	w.Header().Set("Content-Type", "application/json")
